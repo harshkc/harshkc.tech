@@ -5,3 +5,4 @@ export {default as Avatar} from "./Avatar";
 export {default as CircleButton} from "./CircleButton";
 export {default as Footer} from "./Footer";
 export {default as SectionLayout} from "./SectionLayout";
+export {default as ProjectCard} from "./ProjectCard";
