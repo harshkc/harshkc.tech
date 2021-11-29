@@ -1,2 +1,1 @@
-# prototype
-prototype
+# portfolio+blog = blogfolio
