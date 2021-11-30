@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {CircleButton} from '../components';
-import WorkPng from '../public/images/work.png';
+import WorkPng from '../public/work.png';
 
 const Work = () => {
   return (
