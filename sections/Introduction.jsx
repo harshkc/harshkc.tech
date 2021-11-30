@@ -10,8 +10,8 @@ function Introduction() {
         <Image
           unoptimized
           layout="fill"
-          src="/images/harsh_intro.jpeg"
-          alt="Harsh Kumar Chaudhary"
+          src={'https://imgur.com/WPt3gTJ.jpg'}
+          alt="Author standing picture"
         />
       </div>
       <div className="mt-12 col-span-full lg:col-span-6 lg:col-start-6 lg:mt-0">

@@ -1,8 +1,10 @@
 import React from 'react';
 import {ProjectCard} from '../components';
 import {projects} from '../util';
+import {useTheme} from 'next-themes';
 
 const Projects = () => {
+  const {theme} = useTheme();
   return (
     <div
       className="grid pt-16 pb-4"
@@ -18,7 +20,9 @@ const Projects = () => {
               title={project.title}
               desc={project.desc}
               links={project.links}
-              imgSrc={project.imgSrc}
+              imgSrc={
+                theme === 'dark' ? project.imgSrc.dark : project.imgSrc.light
+              }
               techs={project.techs}
             ></ProjectCard>
           </div>

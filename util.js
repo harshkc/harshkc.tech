@@ -10,8 +10,10 @@ export const projects = [
         github: 'https://github.com/harshkc/',
       },
     ],
-    imgSrc:
-      'https://images.ctfassets.net/rnx10gdrj9dy/1wtOvIYiFLGBwenPMZQ3Cc/da1de0805ab8f7fc83af0ac2e4ac0e6e/react.png?w=800&h=480&q=50',
+    imgSrc: {
+      light: 'https://imgur.com/cM3SIZS.png',
+      dark: 'https://imgur.com/cM3SIZS.png',
+    },
     techs: ['React', 'Socket', 'Node', 'Express', 'MongoDB'],
   },
   {
@@ -24,20 +26,26 @@ export const projects = [
         github: 'https://github.com/harshkc/xBook',
       },
     ],
-    imgSrc: '/images/xBook.png',
+    imgSrc: {
+      light: 'https://imgur.com/b2IZ5qK.png',
+      dark: 'https://imgur.com/CoItMi7.png',
+    },
     techs: ['React', 'msw', 'cypress', 'Emotion'],
   },
   {
     id: 3,
     title: 'Portfolio',
-    desc: 'The site you are currently on. This also contains original blogs writtern by Harsh powered by GraphCMS.',
+    desc: 'The site you are currently on. This also contains original blogs written by Harsh powered by GraphCMS.',
     links: [
       {
         website: 'https://harshkc.tech',
         github: 'https://github.com/harshkc/blogfolio',
       },
     ],
-    imgSrc: '/images/portfolio.png',
+    imgSrc: {
+      light: 'https://imgur.com/86GbLcC.png',
+      dark: 'https://imgur.com/HKhDuk9.png',
+    },
     techs: ['Next', 'GraphQL', 'tailwind css'],
   },
   {
@@ -50,7 +58,10 @@ export const projects = [
         github: 'https://github.com/101Loop/NidhiSanchar',
       },
     ],
-    imgSrc: '/images/ns.png',
+    imgSrc: {
+      light: 'https://imgur.com/DqNE7A8.png',
+      dark: 'https://imgur.com/KLYfTPX.png',
+    },
     techs: ['React', 'Django', 'PostgreSQL'],
   },
   {
@@ -63,8 +74,10 @@ export const projects = [
         github: 'https://github.com/harshkc/travlguide',
       },
     ],
-    imgSrc:
-      'https://images.ctfassets.net/rnx10gdrj9dy/1wtOvIYiFLGBwenPMZQ3Cc/da1de0805ab8f7fc83af0ac2e4ac0e6e/react.png?w=800&h=480&q=50',
+    imgSrc: {
+      light: 'https://imgur.com/cM3SIZS.png',
+      dark: 'https://imgur.com/cM3SIZS.png',
+    },
     techs: ['React', 'Gmaps'],
   },
   {
@@ -77,7 +90,10 @@ export const projects = [
         github: 'https://github.com/harshkc/xpensly',
       },
     ],
-    imgSrc: '/images/xpensly-light.jpeg',
+    imgSrc: {
+      light: 'https://imgur.com/m8CCu6o.jpg',
+      dark: 'https://imgur.com/6DTOQsX.jpg',
+    },
     techs: ['React', 'Speechly', 'Material-Ui'],
   },
 ];
