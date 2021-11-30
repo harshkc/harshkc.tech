@@ -78,27 +78,25 @@ const PostDetail = ({post}) => {
         );
       case 'code-block':
         return (
-          <pre
+          <div
             key={index}
-            className="p-6 mb-8 text-lg bg-gray-100 rounded-md dark:bg-primary"
+            className="p-6 mb-8 bg-gray-100 rounded-md text-md md:text-lg dark:bg-primary"
           >
-            <code>
-              {modifiedText.map((item, i) => (
-                <React.Fragment key={i}>
-                  <SyntaxHighlighter
-                    customStyle={{
-                      backgroundColor: 'transparent',
-                      color: theme.theme === 'dark' ? '#fff' : '#000',
-                    }}
-                    language="jsx"
-                    showLineNumbers={true}
-                  >
-                    {item}
-                  </SyntaxHighlighter>
-                </React.Fragment>
-              ))}
-            </code>
-          </pre>
+            {modifiedText.map((item, i) => (
+              <React.Fragment key={i}>
+                <SyntaxHighlighter
+                  customStyle={{
+                    backgroundColor: 'transparent',
+                    color: theme.theme === 'dark' ? '#fff' : '#000',
+                  }}
+                  language="jsx"
+                  showLineNumbers={true}
+                >
+                  {item}
+                </SyntaxHighlighter>
+              </React.Fragment>
+            ))}
+          </div>
         );
       case 'block-quote':
         return (

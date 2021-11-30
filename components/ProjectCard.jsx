@@ -12,7 +12,7 @@ const ProjectCard = ({title, desc, links, imgSrc, techs}) => {
       className={`overflow-hidden shadow-lg w-72 sm:w-full h-full rounded-md bg-gray-100 bg-opacity-75 dark:bg-primary ${scaleAnimation}`}
     >
       <div className={`overflow-hidden relative`}>
-        <div className={`w-72 h-full sm:w-full `}>
+        <div className={`w-72 h-full sm:w-full`}>
           <Image
             unoptimized
             height="300"

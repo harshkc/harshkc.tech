@@ -11,7 +11,7 @@ const Avatar = () => {
         layout="fixed"
         alt="Display picture of the author"
         className="rounded-full"
-        src="/images/harsh_landing.jpg"
+        src={'https://i.imgur.com/geGLSFW.jpg'}
       />
     </div>
   );
