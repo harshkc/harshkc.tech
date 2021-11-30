@@ -1,17 +1,17 @@
-import React from "react";
-import {ProjectCard} from "../components";
-import {projects} from "../util";
+import React from 'react';
+import {ProjectCard} from '../components';
+import {projects} from '../util';
 
 const Projects = () => {
   return (
     <div
-      className='grid pt-16 pb-4'
+      className="grid pt-16 pb-4"
       style={{
-        gridTemplateColumns: "repeat(auto-fill, minmax(330px, 1fr))",
-        gridGap: "3rem",
+        gridTemplateColumns: 'repeat(auto-fill, minmax(330px, 1fr))',
+        gridGap: '3rem',
       }}
     >
-      {projects.map((project) => {
+      {projects.map(project => {
         return (
           <div key={project.id} className={`flex justify-center`}>
             <ProjectCard

@@ -1,4 +1,4 @@
-import { request, gql } from 'graphql-request';
+import {request, gql} from 'graphql-request';
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
@@ -42,10 +42,10 @@ export const getPosts = async () => {
 export const getCategories = async () => {
   const query = gql`
     query GetGategories {
-        categories {
-          name
-          slug
-        }
+      categories {
+        name
+        slug
+      }
     }
   `;
 
@@ -54,16 +54,16 @@ export const getCategories = async () => {
   return result.categories;
 };
 
-export const getPostDetails = async (slug) => {
+export const getPostDetails = async slug => {
   const query = gql`
-    query GetPostDetails($slug : String!) {
+    query GetPostDetails($slug: String!) {
       post(where: {slug: $slug}) {
         title
         excerpt
         featuredImage {
           url
         }
-        author{
+        author {
           name
           bio
           photo {
@@ -83,7 +83,7 @@ export const getPostDetails = async (slug) => {
     }
   `;
 
-  const result = await request(graphqlAPI, query, { slug });
+  const result = await request(graphqlAPI, query, {slug});
 
   return result.post;
 };
@@ -104,15 +104,15 @@ export const getSimilarPosts = async (categories, slug) => {
       }
     }
   `;
-  const result = await request(graphqlAPI, query, { slug, categories });
+  const result = await request(graphqlAPI, query, {slug, categories});
 
   return result.posts;
 };
 
 export const getAdjacentPosts = async (createdAt, slug) => {
   const query = gql`
-    query GetAdjacentPosts($createdAt: DateTime!,$slug:String!) {
-      next:posts(
+    query GetAdjacentPosts($createdAt: DateTime!, $slug: String!) {
+      next: posts(
         first: 1
         orderBy: createdAt_ASC
         where: {slug_not: $slug, AND: {createdAt_gte: $createdAt}}
@@ -124,7 +124,7 @@ export const getAdjacentPosts = async (createdAt, slug) => {
         createdAt
         slug
       }
-      previous:posts(
+      previous: posts(
         first: 1
         orderBy: createdAt_DESC
         where: {slug_not: $slug, AND: {createdAt_lte: $createdAt}}
@@ -139,12 +139,12 @@ export const getAdjacentPosts = async (createdAt, slug) => {
     }
   `;
 
-  const result = await request(graphqlAPI, query, { slug, createdAt });
+  const result = await request(graphqlAPI, query, {slug, createdAt});
 
-  return { next: result.next[0], previous: result.previous[0] };
+  return {next: result.next[0], previous: result.previous[0]};
 };
 
-export const getCategoryPost = async (slug) => {
+export const getCategoryPost = async slug => {
   const query = gql`
     query GetCategoryPost($slug: String!) {
       postsConnection(where: {categories_some: {slug: $slug}}) {
@@ -176,7 +176,7 @@ export const getCategoryPost = async (slug) => {
     }
   `;
 
-  const result = await request(graphqlAPI, query, { slug });
+  const result = await request(graphqlAPI, query, {slug});
 
   return result.postsConnection.edges;
 };
@@ -206,7 +206,7 @@ export const getFeaturedPosts = async () => {
   return result.posts;
 };
 
-export const submitComment = async (obj) => {
+export const submitComment = async obj => {
   const result = await fetch('/api/comments', {
     method: 'POST',
     headers: {
@@ -218,10 +218,10 @@ export const submitComment = async (obj) => {
   return result.json();
 };
 
-export const getComments = async (slug) => {
+export const getComments = async slug => {
   const query = gql`
-    query GetComments($slug:String!) {
-      comments(where: {post: {slug:$slug}}){
+    query GetComments($slug: String!) {
+      comments(where: {post: {slug: $slug}}) {
         name
         createdAt
         comment
@@ -229,7 +229,7 @@ export const getComments = async (slug) => {
     }
   `;
 
-  const result = await request(graphqlAPI, query, { slug });
+  const result = await request(graphqlAPI, query, {slug});
 
   return result.comments;
 };
