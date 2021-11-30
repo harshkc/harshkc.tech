@@ -16,6 +16,10 @@ export default function Home() {
         <Projects />
       </SectionLayout>
       <Separator />
+      <SectionLayout id='work' spacing='pt-8' name='Work'>
+        <Work />
+      </SectionLayout>
+      <Separator />
     </>
   );
 }
