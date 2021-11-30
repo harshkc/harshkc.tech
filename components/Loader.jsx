@@ -4,11 +4,11 @@ const Loader = () => (
   <div className="text-center">
     <button
       type="button"
-      className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-rose-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700 transition ease-in-out duration-150 cursor-not-allowed"
+      className="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md cursor-not-allowed bg-rose-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700"
       disabled=""
     >
       <svg
-        className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
+        className="w-5 h-5 mr-3 -ml-1 text-white animate-spin"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
