@@ -15,14 +15,19 @@ const Work = () => {
           <p className="mb-2 text-3xl font-medium leading-normal md:text-4xl md:leading-relaxed">
             Work Experience
           </p>
-          <p className="mb-4 text-sm font-semibold text-gray-600 dark:text-gray-300 md:text-base">
+          {/* <p className="mb-4 text-sm font-semibold text-gray-600 dark:text-gray-300 md:text-base">
             He is currently looking for challenging Front-End intern roles.
-          </p>
+          </p> */}
           <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 md:text-base">
             Till now he has developed and launched 3 mobile-apps for a startup -{' '}
             <strong>Sweet2th</strong>, a platform for people to connect with
             bakeries and restaurants which has{' '}
-            <strong>active users in thousands</strong>.
+            <strong>active users in thousands</strong>. <br />
+            <br />
+            He has also helped a local business - <strong>
+              Aspire Minds
+            </strong>{' '}
+            to develop their online presence.
           </p>
           <button className="my-8 text-left">
             <Link href="/blog">
@@ -48,7 +53,7 @@ const Work = () => {
                     Freelance Web developer
                   </div>
                   <p className="text-sm leading-snug text-gray-600 text-opacity-100 dark:text-gray-300 md:text-base">
-                    Made business website for a startup -{' '}
+                    Made website for a local business -{' '}
                     <strong> Aspire Minds</strong>. Designed, coded and deployed
                     the website and helped them create their online presence.
                   </p>
