@@ -138,20 +138,28 @@ const PostDetail = ({post}) => {
           name="keywords"
           content="Learn React,React blogs, Testing in JavaScript, Testing in React, Learn JavaScript, Learn TypeScript, harsh choudhary, kent c dodds, dan abramov, ."
         />
-        <meta name="image" content={post.featuredImage.url}></meta>
+        <meta name="image" content={post.featuredImage.url} />
 
-        <meta property="og:url" content="https://harshkc.tech" />
+        <meta
+          property="og:url"
+          content={`https://harshkc.tech/blog/${post.slug}`}
+        />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
+        <meta property="og:image" content={post.featuredImage.url} />
 
-        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:creator" content="@harshkc99" />
         <meta name="twitter:site" content="@harshkc99" />
         <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content={post.featuredImage.url} />
         <meta name="twitter:alt" content={post.title}></meta>
-        <meta name="twitter:image" content={post.featuredImage.url}></meta>
 
-        <link rel="canonical" href="https://harshkc.tech"></link>
+        <link
+          rel="canonical"
+          href={`https://harshkc.tech/blog/${post.slug}`}
+        ></link>
       </Head>
 
       <div className="pb-12 mb-8 bg-white rounded-lg shadow-lg dark:bg-secondary lg:p-8">

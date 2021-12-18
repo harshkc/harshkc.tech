@@ -44,7 +44,7 @@ const PostWidget = ({categories, slug}) => {
               <p className="text-gray-500 dark:text-gray-200 font-xs">
                 {moment(post.createdAt).format('MMM DD, YYYY')}
               </p>
-              <Link href={`/post/${post.slug}`} key={index}>
+              <Link href={`/blog/${post.slug}`} key={index}>
                 <a className="hover:underline">{post.title}</a>
               </Link>
             </div>

@@ -16,7 +16,7 @@ export default function Home({posts}) {
           name="keywords"
           content="Learn React,React blogs, Testing in JavaScript, Testing in React, Learn JavaScript, Learn TypeScript,Learn Tailwindcss, kent c dodds, dan abramov, harsh choudhary."
         />
-        <meta name="image" content="https://i.imgur.com/yQD64J6.png"></meta>
+        <meta name="image" content="https://i.imgur.com/yQD64J6.png" />
 
         <meta property="og:url" content="https://harshkc.tech/blog" />
         <meta property="og:title" content="The Harsh Choudhary blog" />
@@ -24,21 +24,20 @@ export default function Home({posts}) {
           property="og:description"
           content="Join skilled and smart people who have read Harsh's articles on JavaScript, TypeScript, React, Testing, Career, and more."
         />
+        <meta property="og:image" content="https://i.imgur.com/yQD64J6.png" />
 
-        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Harsh Choudhary blog" />
         <meta name="twitter:site" content="@harshkc99" />
+        <meta name="twitter:creator" content="@harshkc99" />
         <meta
           name="twitter:description"
           content="Join skilled and smart people who have read Harsh's articles on JavaScript, TypeScript, React, Testing, Career, and more."
         />
         <meta name="twitter:alt" content="The Harsh Choudhary blog"></meta>
-        <meta
-          name="twitter:image"
-          content="https://i.imgur.com/yQD64J6.png"
-        ></meta>
+        <meta name="twitter:image" content="https://i.imgur.com/yQD64J6.png" />
 
-        <link rel="canonical" href="https://harshkc.tech"></link>
+        <link rel="canonical" href="https://harshkc.tech/blog"></link>
       </Head>
 
       <FeaturedPosts />
