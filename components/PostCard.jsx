@@ -16,7 +16,7 @@ const PostCard = ({post}) => (
     </div>
 
     <h1 className="mb-8 text-3xl font-semibold text-center transition duration-700 cursor-pointer hover:text-pink-600">
-      <Link href={`/post/${post.slug}`}>
+      <Link href={`/blog/${post.slug}`}>
         <a>{post.title}</a>
       </Link>
     </h1>
@@ -59,7 +59,7 @@ const PostCard = ({post}) => (
       {post.excerpt}
     </p>
     <button className="w-full mx-auto text-center">
-      <Link href={`/post/${post.slug}`}>
+      <Link href={`/blog/${post.slug}`}>
         <a>
           <span className="inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 transform bg-pink-600 rounded-full cursor-pointer ease hover:scale-90">
             Continue Reading
