@@ -1,6 +1,6 @@
 import React from 'react';
 import {ProjectCard} from '../components';
-import {projects} from '../util';
+import {projects} from '../utils/util';
 import {useTheme} from 'next-themes';
 
 const Projects = () => {

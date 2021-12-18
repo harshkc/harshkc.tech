@@ -3,7 +3,7 @@ import Image from 'next/image';
 import moment from 'moment';
 import Link from 'next/link';
 
-import {graphCMSImageLoader} from '../util';
+import {graphCMSImageLoader} from '../utils/util';
 
 const PostCard = ({post}) => (
   <div className="p-0 pb-12 mb-8 bg-white rounded-lg shadow-lg dark:bg-secondary lg:p-8">
