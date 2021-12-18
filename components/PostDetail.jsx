@@ -2,6 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {useTheme} from 'next-themes';
+import Head from 'next/head';
 
 const PostDetail = ({post}) => {
   const theme = useTheme();
@@ -130,6 +131,29 @@ const PostDetail = ({post}) => {
 
   return (
     <>
+      <Head>
+        <title>{post.title}</title>
+        <meta name="description" content={post.excerpt} />
+        <meta
+          name="keywords"
+          content="Learn React,React blogs, Testing in JavaScript, Testing in React, Learn JavaScript, Learn TypeScript, harsh choudhary, kent c dodds, dan abramov, ."
+        />
+        <meta name="image" content={post.featuredImage.url}></meta>
+
+        <meta property="og:url" content="https://harshkc.tech" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.excerpt} />
+
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:site" content="@harshkc99" />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:alt" content={post.title}></meta>
+        <meta name="twitter:image" content={post.featuredImage.url}></meta>
+
+        <link rel="canonical" href="https://harshkc.tech"></link>
+      </Head>
+
       <div className="pb-12 mb-8 bg-white rounded-lg shadow-lg dark:bg-secondary lg:p-8">
         <div className="relative mb-6 overflow-hidden shadow-md">
           <img

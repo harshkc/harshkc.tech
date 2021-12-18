@@ -1,9 +1,44 @@
+import Head from 'next/head';
 import {LandingPage, Introduction, Projects, Work} from '../sections';
 import {Separator, SectionLayout} from '../components';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <meta
+          name="description"
+          content="Come check out about Harsh Choudhary who is levelling up his career as a software engineer and sharing his journey to help you."
+        />
+        <meta
+          name="keywords"
+          content="Learn React,React blogs, Testing in JavaScript, Testing in React, Learn JavaScript, Learn TypeScript, kent c dodds, dan abramov, harsh choudhary."
+        />
+        <meta name="image" content="https://i.imgur.com/86GbLcC.png"></meta>
+
+        <meta property="og:url" content="https://harshkc.tech" />
+        <meta property="og:title" content="Harsh Choudhary" />
+        <meta
+          property="og:description"
+          content="Come check out about Harsh Choudhary who is levelling up his career as a software engineer and sharing his journey to help you."
+        />
+
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:title" content="Harsh Choudhary" />
+        <meta name="twitter:site" content="@harshkc99" />
+        <meta
+          name="twitter:description"
+          content="Come check out about Harsh Choudhary who is levelling up his career as a software engineer and sharing his journey to help you."
+        />
+        <meta name="twitter:alt" content="Harsh Choudhary"></meta>
+        <meta
+          name="twitter:image"
+          content="https://i.imgur.com/86GbLcC.png"
+        ></meta>
+
+        <link rel="canonical" href="https://harshkc.tech"></link>
+      </Head>
+
       <section id="home">
         <LandingPage />
       </section>
