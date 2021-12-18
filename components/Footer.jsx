@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {FaTwitter, FaLinkedinIn, FaGithub} from 'react-icons/fa';
-import {contactLinks, navItems} from '../util';
+import {contactLinks, navItems} from '../utils/util';
 
 export const socialIcons = [
   {

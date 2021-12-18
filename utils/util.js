@@ -2,19 +2,19 @@ export const graphCMSImageLoader = ({src}) => src;
 export const projects = [
   {
     id: 1,
-    title: 'Real time Collabration(In progress)',
-    desc: 'Real time collabrative platform for building... ',
+    title: 'UNO-IO',
+    desc: 'Play UNO card game online with your friends and chat with them in real time.',
     links: [
       {
-        website: '',
-        github: 'https://github.com/harshkc/',
+        website: 'https://uno-io.vercel.app/',
+        github: 'https://github.com/harshkc/uno-io',
       },
     ],
     imgSrc: {
-      light: 'https://imgur.com/cM3SIZS.png',
-      dark: 'https://imgur.com/cM3SIZS.png',
+      light: 'https://i.imgur.com/4TpDTtG.jpg',
+      dark: 'https://i.imgur.com/4TpDTtG.jpg',
     },
-    techs: ['React', 'Socket', 'Node', 'Express', 'MongoDB'],
+    techs: ['React', 'Node', 'Express', 'Socket.io'],
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const projects = [
       light: 'https://imgur.com/b2IZ5qK.png',
       dark: 'https://imgur.com/CoItMi7.png',
     },
-    techs: ['React', 'msw', 'cypress', 'Emotion'],
+    techs: ['React', 'MSW', 'cypress', 'Emotion'],
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ export const projects = [
       light: 'https://imgur.com/86GbLcC.png',
       dark: 'https://imgur.com/HKhDuk9.png',
     },
-    techs: ['Next', 'GraphQL', 'tailwind css'],
+    techs: ['Next', 'GraphQL', 'tailwind css', 'GraphCMS'],
   },
   {
     id: 4,
@@ -66,12 +66,12 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Travel Advisor',
-    desc: 'Your personal travel advisor to get best out of your every travel abroad or domestic.',
+    title: 'In Progress',
+    desc: 'Something exciting is cooking...',
     links: [
       {
-        website: 'https://travlguide.netlify.app',
-        github: 'https://github.com/harshkc/travlguide',
+        website: 'https://harshkc.tech',
+        github: 'https://github.com/harshkc/',
       },
     ],
     imgSrc: {

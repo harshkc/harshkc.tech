@@ -3,7 +3,7 @@ import Image from 'next/image';
 import moment from 'moment';
 import Link from 'next/link';
 
-import {graphCMSImageLoader} from '../util';
+import {graphCMSImageLoader} from '../utils/util';
 import {getSimilarPosts, getRecentPosts} from '../services';
 
 const PostWidget = ({categories, slug}) => {

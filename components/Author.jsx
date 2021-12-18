@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import {graphCMSImageLoader} from '../util';
+import {graphCMSImageLoader} from '../utils/util';
 
 const Author = ({author}) => (
   <div className="relative p-12 mt-20 mb-8 text-center bg-red-200 rounded-lg dark:bg-gray-800 bg-opacity-30">

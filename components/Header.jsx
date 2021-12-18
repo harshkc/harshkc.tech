@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 import {FaSun, FaMoon, FaBars} from 'react-icons/fa';
-import {navItems} from '../util';
+import {navItems} from '../utils/util';
 import {useTheme} from 'next-themes';
 
 const Header = () => {

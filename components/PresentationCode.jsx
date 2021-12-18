@@ -29,7 +29,7 @@ const PresentationCode = () => {
               `<span class="${lineNumberClassName}">3</span> &nbsp;&nbsp;<span class="text-gray-400 font-light">// ${content.job}</span><br />`,
             )
             .typeString(
-              `<span class="${lineNumberClassName}">4</span> &nbsp;&nbsp;passion: "<span class="text-green-500">Front-end &hearts;</span>",<br />`,
+              `<span class="${lineNumberClassName}">4</span> &nbsp;&nbsp;passion: "<span class="text-green-500">Coding &hearts;</span>",<br />`,
             )
             .typeString(
               `<span class="${lineNumberClassName}">5</span> &nbsp;&nbsp;<span class="text-gray-400 font-light">// ${content.graduation}</span><br />`,
