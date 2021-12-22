@@ -66,22 +66,6 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'In Progress',
-    desc: 'Something exciting is cooking...',
-    links: [
-      {
-        website: 'https://harshkc.tech',
-        github: 'https://github.com/harshkc/',
-      },
-    ],
-    imgSrc: {
-      light: 'https://imgur.com/cM3SIZS.png',
-      dark: 'https://imgur.com/cM3SIZS.png',
-    },
-    techs: ['React', 'Gmaps'],
-  },
-  {
-    id: 6,
     title: 'Xpensly',
     desc: 'Xpensly is a web app for journaling day to day transactions. Users can create or delete transactions details hands-free with ease.',
     links: [
@@ -95,6 +79,22 @@ export const projects = [
       dark: 'https://imgur.com/6DTOQsX.jpg',
     },
     techs: ['React', 'Speechly', 'Material-Ui'],
+  },
+  {
+    id: 6,
+    title: 'In Progress',
+    desc: 'Something exciting is cooking...',
+    links: [
+      {
+        website: 'https://harshkc.tech',
+        github: 'https://github.com/harshkc/',
+      },
+    ],
+    imgSrc: {
+      light: 'https://imgur.com/cM3SIZS.png',
+      dark: 'https://imgur.com/cM3SIZS.png',
+    },
+    techs: ['React'],
   },
 ];
 

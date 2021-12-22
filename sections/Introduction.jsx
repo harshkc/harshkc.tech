@@ -16,8 +16,8 @@ function Introduction() {
       </div>
       <div className="mt-12 col-span-full lg:col-span-6 lg:col-start-6 lg:mt-0">
         <div className="text-xl leading-tight md:text-2xl">
-          Hi, I'm Harsh Choudhary. I want to make the world better place through
-          innovative and quality software.
+          Hi there! I’m Harsh. I’m a passionate builder who loves building
+          things with code.
         </div>
         <p className="mt-12 font-medium text-gray-400 text-large md:text-xl">
           {`
@@ -34,7 +34,7 @@ function Introduction() {
             watching football, or playing badminton. I'm also a big fan of the latest tech and gadgets.
           `}
         </p>
-        <Link href="https://drive.google.com/uc?id=145uHfu63jTnhRwrQxSJj3gnjCs-zz-XQ&export=download">
+        <Link href="https://drive.google.com/file/d/1OnVViDEXj3mP8hrBQzlvpn5ZA0P-SAGo/view?usp=sharing">
           <a>
             <button
               type="button"
