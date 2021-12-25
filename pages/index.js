@@ -1,8 +1,11 @@
 import Head from 'next/head';
 import {LandingPage, Introduction, Projects, Work} from '../sections';
 import {Separator, SectionLayout} from '../components';
+import {easter, curious} from '../utils/easter';
 
 export default function Home() {
+  console.info(curious);
+  console.info(easter);
   return (
     <>
       <Head>
