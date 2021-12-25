@@ -34,19 +34,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Portfolio',
-    desc: 'The site you are currently on. This also contains original blogs written by Harsh powered by GraphCMS.',
+    title: 'Xpensly',
+    desc: 'Xpensly is a web app for journaling day to day transactions. Users can create or delete transactions details hands-free with ease.',
     links: [
       {
-        website: 'https://harshkc.tech',
-        github: 'https://github.com/harshkc/blogfolio',
+        website: 'https://xpensly.netlify.app',
+        github: 'https://github.com/harshkc/xpensly',
       },
     ],
     imgSrc: {
-      light: 'https://imgur.com/86GbLcC.png',
-      dark: 'https://imgur.com/HKhDuk9.png',
+      light: 'https://imgur.com/m8CCu6o.jpg',
+      dark: 'https://imgur.com/6DTOQsX.jpg',
     },
-    techs: ['Next', 'GraphQL', 'tailwind css', 'GraphCMS'],
+    techs: ['React', 'Speechly', 'Material-Ui'],
   },
   {
     id: 4,
@@ -66,19 +66,19 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Xpensly',
-    desc: 'Xpensly is a web app for journaling day to day transactions. Users can create or delete transactions details hands-free with ease.',
+    title: 'Portfolio',
+    desc: 'The site you are currently on. This also contains original blogs written by Harsh powered by GraphCMS.',
     links: [
       {
-        website: 'https://xpensly.netlify.app',
-        github: 'https://github.com/harshkc/xpensly',
+        website: 'https://harshkc.tech',
+        github: 'https://github.com/harshkc/blogfolio',
       },
     ],
     imgSrc: {
-      light: 'https://imgur.com/m8CCu6o.jpg',
-      dark: 'https://imgur.com/6DTOQsX.jpg',
+      light: 'https://imgur.com/86GbLcC.png',
+      dark: 'https://imgur.com/HKhDuk9.png',
     },
-    techs: ['React', 'Speechly', 'Material-Ui'],
+    techs: ['Next', 'GraphQL', 'tailwind css', 'GraphCMS'],
   },
   {
     id: 6,

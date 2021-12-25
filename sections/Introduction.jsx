@@ -24,13 +24,14 @@ function Introduction() {
           My first experience with programming was when I was 12, but I didn’t
           last long: I was a big fan of{' '}
           <span className="text-green-600">Prince of persia and NFS games</span>
-          .Overwhelmed by choices I chose C language to start my journey and it
-          became boring after a while. After 2 years, I made a wordpress site
-          for my <span className="text-green-600">uncle</span> who was an
-          Insurance agent at the time.
+          . Overwhelmed by choices I chose C language to start my journey and it
+          became boring after a while. But, I kept looking to building things, I
+          made a wordpress site for my{' '}
+          <span className="text-green-600">uncle's business</span>. I was elated
+          that day.
         </p>
         <p className="mt-5 font-medium text-gray-400 text-small md:text-xl">
-          In high school, I realized we needed to code the logic only once and
+          In high school, I realized that we just have to code the algo once and
           the software could run calculations and
           <span className="text-green-600">
             {' '}
@@ -63,7 +64,6 @@ function Introduction() {
             </button>
           </a>
         </Link>
-
         <CircleButton to="#projects" text="Explore Projects" styles="mt-8" />
       </div>
     </div>
