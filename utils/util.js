@@ -2,22 +2,6 @@ export const graphCMSImageLoader = ({src}) => src;
 export const projects = [
   {
     id: 1,
-    title: 'UNO-IO',
-    desc: 'Play UNO card game online with your friends and chat with them in real time.',
-    links: [
-      {
-        website: 'https://uno-io.vercel.app/',
-        github: 'https://github.com/harshkc/uno-io',
-      },
-    ],
-    imgSrc: {
-      light: 'https://i.imgur.com/4TpDTtG.jpg',
-      dark: 'https://i.imgur.com/4TpDTtG.jpg',
-    },
-    techs: ['React', 'Node', 'Express', 'Socket.io'],
-  },
-  {
-    id: 2,
     title: 'xBook',
     desc: 'xBook is a simple application to virtualize your bookshelf. Choose books, read and rate them, record your notes and leave all the hard parts of managing your bookshelf to us.',
     links: [
@@ -33,23 +17,55 @@ export const projects = [
     techs: ['React', 'MSW', 'cypress', 'Emotion'],
   },
   {
-    id: 3,
-    title: 'Xpensly',
-    desc: 'Xpensly is a web app for journaling day to day transactions. Users can create or delete transactions details hands-free with ease.',
+    id: 2,
+    title: 'UNO-IO',
+    desc: 'Play UNO card game online with your friends and chat with them in real time.',
     links: [
       {
-        website: 'https://xpensly.netlify.app',
-        github: 'https://github.com/harshkc/xpensly',
+        website: 'https://uno-io.vercel.app/',
+        github: 'https://github.com/harshkc/uno-io',
       },
     ],
     imgSrc: {
-      light: 'https://imgur.com/m8CCu6o.jpg',
-      dark: 'https://imgur.com/6DTOQsX.jpg',
+      light: 'https://i.imgur.com/4TpDTtG.jpg',
+      dark: 'https://i.imgur.com/4TpDTtG.jpg',
     },
-    techs: ['React', 'Speechly', 'Material-Ui'],
+    techs: ['React', 'Node', 'Express', 'Socket.io'],
+  },
+  {
+    id: 3,
+    title: 'MPeace',
+    desc: 'A QnA platform inspired by StackOverflow but dedicated to mental health support where users can ask about their problems anonymously and achieve mental peace.',
+    links: [
+      {
+        website: 'https://mpeace.vercel.app',
+        github: 'https://github.com/harshkc/mpeace',
+      },
+    ],
+    imgSrc: {
+      light: 'https://i.imgur.com/I3DUP5H.png',
+      dark: 'https://i.imgur.com/BqJzfRE.png',
+    },
+    techs: ['React', 'Express', 'MongoDB', 'GraphQl'],
   },
   {
     id: 4,
+    title: 'Documently',
+    desc: 'Documently is a PWA that helps you document your day-to-day transactions and daily Journals int at a single place.',
+    links: [
+      {
+        website: 'https://xpensly.netlify.app',
+        github: 'https://github.com/harshkc/documently',
+      },
+    ],
+    imgSrc: {
+      light: 'https://i.imgur.com/K14wSod.png',
+      dark: 'https://i.imgur.com/nmgQnCa.png',
+    },
+    techs: ['React', 'Firebase', 'Material-Ui'],
+  },
+  {
+    id: 5,
     title: 'Nidhi Sanchar',
     desc: 'The complete lifecycle of a government scheme can be seamlessly managed by this system. This establishes a platform between center and state government officials.',
     links: [
@@ -65,7 +81,7 @@ export const projects = [
     techs: ['React', 'Django', 'PostgreSQL'],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Portfolio',
     desc: 'The site you are currently on. This also contains original blogs written by Harsh powered by GraphCMS.',
     links: [
@@ -79,22 +95,6 @@ export const projects = [
       dark: 'https://imgur.com/HKhDuk9.png',
     },
     techs: ['Next', 'GraphQL', 'tailwind css', 'GraphCMS'],
-  },
-  {
-    id: 6,
-    title: 'In Progress',
-    desc: 'Something exciting is cooking...',
-    links: [
-      {
-        website: 'https://harshkc.tech',
-        github: 'https://github.com/harshkc/',
-      },
-    ],
-    imgSrc: {
-      light: 'https://imgur.com/cM3SIZS.png',
-      dark: 'https://imgur.com/cM3SIZS.png',
-    },
-    techs: ['React'],
   },
 ];
 

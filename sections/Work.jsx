@@ -10,7 +10,7 @@ const Work = () => {
       <div className="container flex flex-col items-start mx-auto my-12 md:flex-row md:my-24">
         <div className="sticky flex flex-col w-full pl-4 pr-8 mt-2 md:top-36 lg:w-1/3 md:mt-12">
           <p className="font-medium text-green-600 uppercase tracking-loose">
-            Professional & Volunteer
+            Professional
           </p>
           <p className="mb-2 text-3xl font-medium leading-normal md:text-4xl md:leading-relaxed">
             Work Experience
@@ -19,15 +19,24 @@ const Work = () => {
             He is currently looking for challenging Front-End intern roles.
           </p> */}
           <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 md:text-base">
-            Till now he has developed and launched 3 mobile-apps for a startup -{' '}
-            <strong>Sweet2th</strong>, a platform for people to connect with
-            bakeries and restaurants which has{' '}
-            <strong>active users in thousands</strong>. <br />
+            Till now he has developed and launched 3 mobile-apps and 2 web-apps
+            for a startup -
+            <strong>
+              <a
+                className="shadow-link hover:shadow-hover"
+                href="https://sweet2th.app/"
+              >
+                Sweet2th
+              </a>
+            </strong>
+            , a platform for people to connect with bakeries and restaurants
+            which has <strong>active users in thousands</strong>. <br />
             <br />
             He has also helped a local business - <strong>
               Aspire Minds
             </strong>{' '}
-            to develop their online presence.
+            to develop their online presence and has also worked on various
+            Freelance projects.
           </p>
           <button className="my-8 text-left">
             <Link href="/blog">
@@ -48,46 +57,73 @@ const Work = () => {
               <div className="flex flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4 text-right">
-                  <p className="mb-3 text-base text-green-600">Jul, 2021</p>
+                  <p className="mb-3 text-base text-green-600">
+                    Jul, 2021 - Current
+                  </p>
                   <div className="mb-3 text-lg font-bold md:text-2xl">
                     Freelance Web developer
                   </div>
                   <p className="text-sm leading-snug text-gray-600 text-opacity-100 dark:text-gray-300 md:text-base">
-                    Made website for a local business -{' '}
+                    Made website for a local businesses like
                     <strong> Aspire Minds</strong>. Designed, coded and deployed
                     the website and helped them create their online presence.
+                    Worked with 3 clients and deployed their app.
                   </p>
                 </div>
               </div>
               <div className="flex items-center justify-between w-full mb-8 right-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4 text-left">
-                  <p className="mb-3 text-base text-green-600">Aug-Nov, 2020</p>
+                  <p className="mb-1 text-base text-green-600">
+                    Nov 2020 - Jul 2021
+                  </p>
                   <div className="mb-3 text-lg font-bold md:text-2xl">
-                    Flutter Research Developer
+                    Full Stack Intern (React)
                   </div>
+                  <p className="mb-3 text-md">
+                    <a
+                      className="shadow-link hover:shadow-hover"
+                      href="https://civilmachines.com/"
+                    >
+                      Civil Machines Technology
+                    </a>
+                  </p>
                   <p className="text-sm leading-snug text-gray-600 dark:text-gray-300 md:text-base ">
-                    <strong>Developed & deployed</strong> cross-platform Flutter
-                    app from scratch for a Food-tech startup - Sweet2th. Reduced{' '}
-                    <strong>app size by 20%</strong> by spilting. Minimized
-                    network calls by optimising navigation stack and caching.
+                    <strong>Developed & maintained</strong> React app for{' '}
+                    <a
+                      className="shadow-link hover:shadow-hover"
+                      href="https://sweet2th.app/"
+                    >
+                      Sweet2th
+                    </a>
+                    . Improved order flow by managing state and caching, also
+                    reduced <strong>load up times</strong> by 40%.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4 text-right">
-                  <p className="mb-3 text-base text-green-600">Aug-Nov, 2020</p>
-                  <div className="mb-3 text-lg font-bold md:text-2xl">
-                    Flutter Research Developer
+                  <p className="mb-3 text-base text-green-600">
+                    Nov 2020 - Jul 2021
+                  </p>
+                  <div className="mb-1 text-lg font-bold md:text-2xl">
+                    Full Stack Intern (React)
                   </div>
+                  <p className="mb-3 text-md">
+                    <a
+                      className="shadow-link hover:shadow-hover"
+                      href="https://civilmachines.com/"
+                    >
+                      Civil Machines Technology
+                    </a>
+                  </p>
                   <p className="text-sm leading-snug text-gray-600 text-opacity-100 dark:text-gray-300 md:text-base">
                     contd...
                     <br />
-                    Acquired hands-on industrial experience in production level
-                    mobile app development, app deployment, integration of cloud
-                    services and payments SDK. Increased{' '}
-                    <strong>code coverage by 45%</strong>.
+                    Fixed UI bugs and Improved performance by
+                    <strong> profiling</strong> and identifying bottlenecks.
+                    Increased <strong>code coverage by 45%</strong>.
                   </p>
                 </div>
               </div>
@@ -95,18 +131,30 @@ const Work = () => {
               <div className="flex items-center justify-between w-full mb-8 right-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4">
-                  <p className="mb-3 text-base text-green-600">
-                    {' '}
-                    Jul-Current, 2019
-                  </p>
-                  <div className="mb-3 text-lg font-bold md:text-2xl">
-                    Founder CodeTronics (Volunteer)
+                  <p className="mb-3 text-base text-green-600">Aug-Nov, 2020</p>
+                  <div className="mb-1 text-lg font-bold md:text-2xl">
+                    Full Stack Intern (Flutter)
                   </div>
+                  <p className="mb-3 text-md">
+                    <a
+                      className="shadow-link hover:shadow-hover"
+                      href="https://civilmachines.com/"
+                    >
+                      Civil Machines Technology
+                    </a>
+                  </p>
                   <p className="text-sm leading-snug text-gray-600 text-opacity-100 dark:text-gray-300 md:text-base">
-                    CodeTronics main aim is to provide quality training and
-                    conduct competitions to develop coding skills in the
-                    students. Lead a team of <strong>30 people</strong>{' '}
-                    conducting 9 events in the year 2019-2020.
+                    <strong>Developed & deployed</strong> cross-platform Flutter
+                    app from scratch for a Food-tech startup -
+                    <a
+                      className="shadow-link hover:shadow-hover"
+                      href="https://play.google.com/store/apps/details?id=app.sweet2th.consumer"
+                    >
+                      Sweet2th
+                    </a>
+                    .Reduced <strong>app size by 20%</strong> by refactoring
+                    code and changing navigation stack, also added optimistic UI
+                    updates for good UX.
                   </p>
                 </div>
               </div>
