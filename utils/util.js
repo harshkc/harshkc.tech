@@ -2,38 +2,6 @@ export const graphCMSImageLoader = ({src}) => src;
 export const projects = [
   {
     id: 1,
-    title: 'xBook',
-    desc: 'xBook is a simple application to virtualize your bookshelf. Choose books, read and rate them, record your notes and leave all the hard parts of managing your bookshelf to us.',
-    links: [
-      {
-        website: 'https://xbook.netlify.app',
-        github: 'https://github.com/harshkc/xBook',
-      },
-    ],
-    imgSrc: {
-      light: 'https://imgur.com/b2IZ5qK.png',
-      dark: 'https://imgur.com/CoItMi7.png',
-    },
-    techs: ['React', 'MSW', 'cypress', 'Emotion'],
-  },
-  {
-    id: 2,
-    title: 'UNO-IO',
-    desc: 'Play UNO card game online with your friends and chat with them in real time.',
-    links: [
-      {
-        website: 'https://uno-io.vercel.app/',
-        github: 'https://github.com/harshkc/uno-io',
-      },
-    ],
-    imgSrc: {
-      light: 'https://i.imgur.com/4TpDTtG.jpg',
-      dark: 'https://i.imgur.com/4TpDTtG.jpg',
-    },
-    techs: ['React', 'Node', 'Express', 'Socket.io'],
-  },
-  {
-    id: 3,
     title: 'MPeace',
     desc: 'A QnA platform inspired by StackOverflow but dedicated to mental health support where users can ask about their problems anonymously and achieve mental peace.',
     links: [
@@ -48,6 +16,39 @@ export const projects = [
     },
     techs: ['React', 'Express', 'MongoDB', 'GraphQl'],
   },
+  {
+    id: 2,
+    title: 'UNO-IO',
+    desc: 'Play UNO card game online with your friends and chat with them in real time.',
+    links: [
+      {
+        website: 'https://uno-io.vercel.app/',
+        github: 'https://github.com/harshkc/uno-io',
+      },
+    ],
+    imgSrc: {
+      light: 'https://i.imgur.com/L71yJEo.png',
+      dark: 'https://i.imgur.com/L71yJEo.png',
+    },
+    techs: ['React', 'Node', 'Express', 'Socket.io'],
+  },
+  {
+    id: 3,
+    title: 'xBook',
+    desc: 'xBook is a simple application to virtualize your bookshelf. Choose books, read and rate them, record your notes and leave all the hard parts of managing your bookshelf to us.',
+    links: [
+      {
+        website: 'https://xbook.netlify.app',
+        github: 'https://github.com/harshkc/xBook',
+      },
+    ],
+    imgSrc: {
+      light: 'https://imgur.com/b2IZ5qK.png',
+      dark: 'https://imgur.com/CoItMi7.png',
+    },
+    techs: ['React', 'MSW', 'cypress', 'Emotion'],
+  },
+
   {
     id: 4,
     title: 'Documently',
@@ -66,11 +67,27 @@ export const projects = [
   },
   {
     id: 5,
+    title: 'Vibes',
+    desc: 'A beautiful application aimed to increase your productivity with a completely customizable collection of lo-fi, anime vibe stations, inbuilt pomodoro timer and tasks manager.',
+    links: [
+      {
+        website: 'https://vibeup.vercel.app',
+        github: 'https://github.com/harshkc/Vibes',
+      },
+    ],
+    imgSrc: {
+      light: 'https://i.imgur.com/CUPcYgM.png',
+      dark: 'https://i.imgur.com/oItpNmP.png',
+    },
+    techs: ['React', 'Firebase'],
+  },
+  {
+    id: 6,
     title: 'Nidhi Sanchar',
     desc: 'The complete lifecycle of a government scheme can be seamlessly managed by this system. This establishes a platform between center and state government officials.',
     links: [
       {
-        website: 'https://nidhisanchar.vercel.app',
+        website: 'https://github.com/101Loop/NidhiSanchar',
         github: 'https://github.com/101Loop/NidhiSanchar',
       },
     ],
@@ -79,22 +96,6 @@ export const projects = [
       dark: 'https://imgur.com/KLYfTPX.png',
     },
     techs: ['React', 'Django', 'PostgreSQL'],
-  },
-  {
-    id: 6,
-    title: 'Portfolio',
-    desc: 'The site you are currently on. This also contains original blogs written by Harsh powered by GraphCMS.',
-    links: [
-      {
-        website: 'https://harshkc.tech',
-        github: 'https://github.com/harshkc/blogfolio',
-      },
-    ],
-    imgSrc: {
-      light: 'https://imgur.com/86GbLcC.png',
-      dark: 'https://imgur.com/HKhDuk9.png',
-    },
-    techs: ['Next', 'GraphQL', 'tailwind css', 'GraphCMS'],
   },
 ];
 
