@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const FeaturedPostCard = ({post}) => (
@@ -17,19 +16,6 @@ const FeaturedPostCard = ({post}) => (
       <p className="mb-4 text-2xl font-semibold text-center text-white text-shadow">
         {post.title}
       </p>
-      <div className="absolute flex items-center justify-center w-full bottom-5">
-        <Image
-          unoptimized
-          alt={post.author.name}
-          height="30px"
-          width="30px"
-          className="align-middle rounded-full drop-shadow-lg"
-          src={post.author.photo.url}
-        />
-        <p className="inline ml-2 font-medium text-white align-middle text-shadow">
-          {post.author.name}
-        </p>
-      </div>
     </div>
     <Link href={`/blog/${post.slug}`}>
       <a>

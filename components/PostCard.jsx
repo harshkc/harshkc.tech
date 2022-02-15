@@ -21,20 +21,6 @@ const PostCard = ({post}) => (
       </Link>
     </h1>
     <div className="items-center justify-center block w-full mb-8 text-center lg:flex">
-      <div className="flex items-center justify-center w-full mb-4 mr-8 lg:mb-0 lg:w-auto">
-        <Image
-          unoptimized
-          loader={graphCMSImageLoader}
-          alt={post.author.name}
-          height="30px"
-          width="30px"
-          className="align-middle rounded-full"
-          src={post.author.photo.url}
-        />
-        <p className="inline ml-2 text-lg font-medium text-gray-700 align-middle dark:text-gray-200">
-          {post.author.name}
-        </p>
-      </div>
       <div className="font-medium text-gray-700 dark:text-gray-200">
         <svg
           xmlns="http://www.w3.org/2000/svg"

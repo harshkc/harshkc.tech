@@ -24,6 +24,8 @@ const Work = () => {
             <strong>
               <a
                 className="shadow-link hover:shadow-hover"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://sweet2th.app/"
               >
                 Sweet2th
@@ -83,6 +85,8 @@ const Work = () => {
                   <p className="mb-3 text-md">
                     <a
                       className="shadow-link hover:shadow-hover"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://civilmachines.com/"
                     >
                       Civil Machines Technology
@@ -92,6 +96,8 @@ const Work = () => {
                     <strong>Developed & maintained</strong> React app for{' '}
                     <a
                       className="shadow-link hover:shadow-hover"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://sweet2th.app/"
                     >
                       Sweet2th
@@ -113,6 +119,8 @@ const Work = () => {
                   <p className="mb-3 text-md">
                     <a
                       className="shadow-link hover:shadow-hover"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://civilmachines.com/"
                     >
                       Civil Machines Technology
@@ -138,6 +146,8 @@ const Work = () => {
                   <p className="mb-3 text-md">
                     <a
                       className="shadow-link hover:shadow-hover"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://civilmachines.com/"
                     >
                       Civil Machines Technology
@@ -148,6 +158,8 @@ const Work = () => {
                     app from scratch for a Food-tech startup -
                     <a
                       className="shadow-link hover:shadow-hover"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href="https://play.google.com/store/apps/details?id=app.sweet2th.consumer"
                     >
                       Sweet2th

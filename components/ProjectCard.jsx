@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import {FaGithub} from 'react-icons/fa';
 
@@ -28,44 +27,38 @@ const ProjectCard = ({title, desc, links, imgSrc, techs}) => {
         <div
           className={`text-gray-800 dark:text-gray-100 dark:hover:text-purple-600 hover:text-purple-600 text-2xl`}
         >
-          <Link href={github} rel="noopener noreferrer">
-            <a>
-              <FaGithub />
-            </a>
-          </Link>
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
         </div>
       </div>
-      <Link href={website} rel="noopener noreferrer">
-        <a>
-          <div
-            className={`relative px-6 py-2 sm:py-4 h-full dark:bg-secondary cursor-pointer `}
+      <a href={website} target="_blank" rel="noopener noreferrer">
+        <div
+          className={`relative px-6 py-2 sm:py-4 h-full dark:bg-secondary cursor-pointer `}
+        >
+          <h4
+            className={`font-bold text-gray-800 dark:text-gray-100 text-xl leading-normal capitalize mb-1 truncate`}
           >
-            <div
-              className={`font-bold text-gray-800 dark:text-gray-100 text-xl leading-normal capitalize mb-1 truncate`}
-            >
-              {title}
-            </div>
-            <div
-              className={`text-gray-700 dark:text-gray-300 mb-4 leading-snug`}
-            >
-              {desc}
-            </div>
+            {title}
+          </h4>
+          <p className={`text-gray-700 dark:text-gray-300 mb-4 leading-snug`}>
+            {desc}
+          </p>
 
-            <div>
-              {techs.map(tech => {
-                return (
-                  <span
-                    key={tech}
-                    className={`inline-block bg-gray-200 dark:bg-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold capitalize text-gray-700 mr-2 mb-1`}
-                  >
-                    {tech}
-                  </span>
-                );
-              })}
-            </div>
+          <div>
+            {techs.map(tech => {
+              return (
+                <span
+                  key={tech}
+                  className={`inline-block bg-gray-200 dark:bg-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold capitalize text-gray-700 mr-2 mb-1`}
+                >
+                  {tech}
+                </span>
+              );
+            })}
           </div>
-        </a>
-      </Link>
+        </div>
+      </a>
     </div>
   );
 };
