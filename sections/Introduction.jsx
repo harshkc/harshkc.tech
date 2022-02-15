@@ -16,10 +16,10 @@ function Introduction() {
       </div>
 
       <div className="mt-12 col-span-full lg:col-span-6 lg:col-start-6 lg:mt-0">
-        <div className="text-xl leading-tight md:text-2xl">
+        <h3 className="text-xl leading-tight md:text-2xl">
           Hi there! I’m Harsh. I’m a passionate builder who loves building
           things with code.
-        </div>
+        </h3>
         <p className="font-medium text-gray-400 text-small mt-7 md:text-xl">
           My first experience with programming was when I was 12, but I didn’t
           last long: I was a big fan of{' '}
