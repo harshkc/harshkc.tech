@@ -13,7 +13,7 @@ const PresentationCode = () => {
   const lineNumberClassName =
     'inline-block text-center md:mr-3 lg:mr-16 w5 text-gray-300';
   return (
-    <div className="mx-5 my-6 font-sans text-xl leading-10 md:text-3xl p-auto">
+    <div className="mx-5 my-6 font-sans text-xl leading-10 h-72 sm:h-auto md:text-3xl p-auto">
       <div className="inline">
         <span className={lineNumberClassName}>1</span>{' '}
         <span className="text-purple-600">const</span> Harsh ={' '}
